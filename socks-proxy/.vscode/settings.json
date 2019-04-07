@@ -1,0 +1,15 @@
+{
+  "debug.inlineValues": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "explorer.autoReveal": true,
+  "extensions.autoUpdate": true,
+  "files.defaultLanguage": "javascript",
+  "files.trimTrailingWhitespace": true,
+  "window.openFilesInNewWindow": "off"
+}

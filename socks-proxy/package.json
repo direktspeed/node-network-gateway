@@ -1,0 +1,50 @@
+{
+  "name": "node-web-forward-proxy",
+  "version": "1.0.8",
+  "description": "HTTP/HTTPS Proxy through the system proxy",
+  "main": "service-register.js",
+  "scripts": {
+    "start": "node lib/proxy.js -p 7451 --spp 1080"
+  },
+  "keywords": [
+    "https",
+    "forward",
+    "proxy"
+  ],
+  "author": "stuart_zhang",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "bin": {
+    "web-proxy": "./bin/web-proxy.cmd",
+    "web-proxy-service": "./bin/web-proxy.cmd",
+    "web-proxy-cluster": "./bin/web-proxy-cluster.cmd",
+    "web-proxy-single": "./bin/web-proxy-single.cmd"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/stuartZhang/node-web-proxy"
+  },
+  "bugs": {
+    "url": "https://github.com/stuartZhang/node-web-proxy/issues"
+  },
+  "homepage": "https://github.com/stuartZhang/node-web-proxy#readme",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "debug": "^3.1.0",
+    "node-windows": "^0.1.14",
+    "promise-tap": "0.0.3",
+    "socks": "^1.1.10",
+    "strip-json-comments": "^2.0.1",
+    "tail": "^1.2.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-stzhang": "0.0.4",
+    "eslint-plugin-stzhang": "0.0.1",
+    "markdown-styles": "^3.1.10"
+  }
+}
