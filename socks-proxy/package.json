@@ -34,7 +34,7 @@
     "argparse": "^1.0.10",
     "debug": "^4.0.0",
     "promise-tap": "0.0.3",
-    "socks": "^1.1.10",
+    "socks": "^2.0.0",
     "strip-json-comments": "^2.0.1",
     "tail": "^1.4.0",
     "underscore": "^1.9.1"
