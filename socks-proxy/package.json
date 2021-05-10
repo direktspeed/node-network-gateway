@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/stuartZhang/node-web-proxy#readme",
   "dependencies": {
-    "argparse": "^1.0.10",
+    "argparse": "^2.0.0",
     "debug": "^4.0.0",
     "promise-tap": "0.0.3",
     "socks": "^1.1.10",
