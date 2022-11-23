@@ -1,6 +1,5 @@
 /**
- * PAC filter rules conforms to <Adblock Plus filters>. The details:
- *    https://www.duoluodeyu.com/1337.html
+ * PAC filter rules conforms to <Adblock Plus filters>.
  */
 const _ = require('underscore');
 const {jsonLoad} = require('./utils');
