@@ -45,7 +45,7 @@
   "devDependencies": {
     "babel-eslint": "8.2.6",
     "eslint": "4.19.1",
-    "eslint-config-stzhang": "0.0.4",
+    "eslint-config-stzhang": "1.0.5",
     "eslint-plugin-stzhang": "0.0.1",
     "@direktspeed/markdown-styles": "3.1.11"
   }
